@@ -1,4 +1,11 @@
-
+.container{
+    border: 5px ridge green;
+        height: 100%;
+        width: 90%;
+}
+.image{
+    background-image: url(./image.html.jpg);
+}
 
 .block{
     border: 3px solid red;
@@ -64,7 +71,7 @@
     padding: 20px;
     background-color: rgb(90, 250, 242);
     display: inline-block;
-    margin: 20px;
+    margin: 38px;
     color: rgb(13, 43, 134);
     text-align: center;   
 }
