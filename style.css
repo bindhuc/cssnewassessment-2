@@ -32,11 +32,12 @@
     border-radius: 50%;
     background-color:rgb(10, 167, 159);
     display: inline-block;
-    margin-top: 100px;
+    margin-top: 170px;
     margin-left: 30px;
-     font-style: italic;
+    font-style: italic;
     text-align: center;
     text-decoration: underline;
+    flex-wrap: wrap;
 }
 .longbox{
     border: 5px dashed red;
@@ -76,5 +77,11 @@
 }
 input{
     text-align: center;
+}
+
+.full{
+    flex-wrap: wrap;
+    display: flex;
+    
 }
 
